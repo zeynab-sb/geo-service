@@ -1,0 +1,13 @@
+address: 0.0.0.0:8080
+database:
+  driver: mysql
+  host: 127.0.0.1
+  port: 3306
+  db: database
+  user: app
+  password: app
+  max_conn: 10
+  idle_conn: 5
+  timeout: 10s
+  dial_retry: 1
+  dial_timeout: 5s
