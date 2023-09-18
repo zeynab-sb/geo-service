@@ -2,12 +2,12 @@ package cmd
 
 import (
 	"fmt"
+	"geo-service/config"
+	"geo-service/database"
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/term"
 	"os"
 	"path/filepath"
-	"service/config"
-	"service/database"
 	"strings"
 
 	_ "github.com/go-sql-driver/mysql"

@@ -10,7 +10,7 @@ RUN go mod download
 
 COPY . .
 
-RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o service .
+RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o geo-service .
 
 EXPOSE 8080
 

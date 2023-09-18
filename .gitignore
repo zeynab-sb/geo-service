@@ -29,6 +29,7 @@
 vendor/*
 
 # Binary and app related files
+geo-service
 .build/*
 .compose/*
 **.po~
